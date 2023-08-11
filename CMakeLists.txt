@@ -6,9 +6,13 @@ set(CMAKE_C_STANDARD 11)
 
 # List of source files (add more files as needed)
 set(SOURCE_FILES
-    UnionsandStructs.c
+     UnionsandStructs.c
      PointerstoNestedUnionandStruct.c
+     ArraysofStructs.c
      ArraysofPointers.c
+     ArraysofStructPointers.c
+     ArraysofFunctionPointers.c
+     StateMachinewithFunctionPointers.c
     # Add more source files here
 )
 
