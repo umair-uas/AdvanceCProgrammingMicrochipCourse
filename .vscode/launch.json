@@ -204,6 +204,64 @@
       }
       ]
     },
+    {
+      "name": "gdb  TrafficLightStateMachine",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/TrafficLightStateMachine_example",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "text": "set output-radix 16",
+          "description": "set the default numeric base to 16",
+          "ignoreFailures": false
+      }
+      ]
+    },
+    {
+      "name": "gdb  CodePortability",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/CodePortability_example",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "text": "set output-radix 16",
+          "description": "set the default numeric base to 16",
+          "ignoreFailures": false
+      }
+      ]
+    },
     // Add more configurations for other executables
   ]
 }
