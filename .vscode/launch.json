@@ -1,6 +1,64 @@
 {
   "version": "0.2.0",
   "configurations": [
+    {
+      "name": "Debug ArraysofFuncPointers_example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/ArraysofFunctionPointers_example",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "text": "set output-radix 16",
+          "description": "set the default numeric base to 16",
+          "ignoreFailures": false
+      }
+      ]
+    },
+    {
+      "name": "Debug StateMachinewithFunctionPointers",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/StateMachinewithFunctionPointers_example",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "text": "set output-radix 16",
+          "description": "set the default numeric base to 16",
+          "ignoreFailures": false
+      }
+      ]
+    },
      {
       "name": "(gdb) Launch UnionsandStructs",
       "type": "cppdbg",
@@ -35,6 +93,35 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/build/ArraysofPointers_example",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "text": "set output-radix 16",
+          "description": "set the default numeric base to 16",
+          "ignoreFailures": false
+      }
+      ]
+    },
+    {
+      "name": "Debug ArraysofStructPointers",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/ArraysofStructPointers_example",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
