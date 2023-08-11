@@ -13,6 +13,9 @@ set(SOURCE_FILES
      ArraysofStructPointers.c
      ArraysofFunctionPointers.c
      StateMachinewithFunctionPointers.c
+     TrafficLightStateMachine.c
+     CodePortability.c
+     DoublePointerDereferencing.c 
     # Add more source files here
 )
 
